@@ -1,0 +1,60 @@
+site_name: Platform Runbooks
+site_description: Operational runbooks for platform engineering teams
+site_author: Data Platform Team
+
+repo_url: https://github.com/your-org/platform-runbooks
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/RSM_Standard_White_Logo.png
+  favicon: assets/favicon.png
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - awesome-pages
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/platform-runbooks
+
+nav:
+  - Home: index.md
+  - Data Platform:
+      - Pipeline Failure: data-platform/pipeline-failure.md
+      - Ingestion Delay: data-platform/ingestion-delay.md
+  - Fabric:
+      - Lakehouse Refresh Failure: fabric/lakehouse-refresh-failure.md
+  - Integrations:
+      - Workday Sync Error: integrations/workday-sync-error.md
