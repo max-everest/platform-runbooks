@@ -2,4 +2,4 @@ mkdocs>=1.6,<2.0
 mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-awesome-pages-plugin
-pymdown-extensions
+pymdown-extensionspython -m mkdocs serve
