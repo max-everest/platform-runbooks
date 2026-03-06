@@ -3,7 +3,7 @@ site_description: Operational runbooks for platform engineering teams
 site_author: Data Platform Team
 site_url: https://max-everest.github.io/platform-runbooks/
 
-repo_url: https://github.com.max-everest/platform-runbooks
+repo_url: https://github.com/max-everest/platform-runbooks
 edit_uri: edit/main/docs/
 
 theme:
