@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://max-everest.github.io/platform-runbooks/</loc>
+         <loc>https://max-everest.github.io/platform-runbooks/index.html</loc>
          <lastmod>2026-03-07</lastmod>
     </url>
     <url>
-         <loc>https://max-everest.github.io/platform-runbooks/data-platform/ingestion-delay/</loc>
+         <loc>https://max-everest.github.io/platform-runbooks/data-platform/ingestion-delay.html</loc>
          <lastmod>2026-03-07</lastmod>
     </url>
     <url>
-         <loc>https://max-everest.github.io/platform-runbooks/data-platform/pipeline-failure/</loc>
+         <loc>https://max-everest.github.io/platform-runbooks/data-platform/pipeline-failure.html</loc>
          <lastmod>2026-03-07</lastmod>
     </url>
     <url>
-         <loc>https://max-everest.github.io/platform-runbooks/fabric/lakehouse-refresh-failure/</loc>
+         <loc>https://max-everest.github.io/platform-runbooks/fabric/lakehouse-refresh-failure.html</loc>
          <lastmod>2026-03-07</lastmod>
     </url>
     <url>
-         <loc>https://max-everest.github.io/platform-runbooks/integrations/workday-sync-error/</loc>
+         <loc>https://max-everest.github.io/platform-runbooks/integrations/workday-sync-error.html</loc>
          <lastmod>2026-03-07</lastmod>
     </url>
 </urlset>
