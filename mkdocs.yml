@@ -1,19 +1,20 @@
-site_name: Platform Runbooks
+site_name: Data Services
 site_description: Operational runbooks for platform engineering teams
 site_author: Data Platform Team
-site_url: https://max-everest.github.io/platform-runbooks/
+site_url: https://max-everest.github.io/platform-runbooks
+use_directory_urls: false
 
 repo_url: https://github.com/max-everest/platform-runbooks
 edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: assets/RSM_Standard_White_Logo.png
+  logo: assets/images/RSM_Standard_White_Logo.png
   favicon: assets/favicon.png
   palette:
     scheme: slate
-    primary: blue
-    accent: light blue
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.sections
@@ -24,6 +25,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.tabs.link
+    - content.feedback
 
 plugins:
   - search
@@ -45,17 +47,29 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
 
+extra_css:
+  - ./assets/stylesheets/extra.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/max-everest/platform-runbooks
+  content:
+    feedback:
+      title: Was this page helpful?
+      url: "https://github.com/max-everest/platform-runbooks/issues/new?title=Feedback for: {title}"
 
 nav:
   - Home: index.md
-  - Data Platform:
-      - Pipeline Failure: data-platform/pipeline-failure.md
-      - Ingestion Delay: data-platform/ingestion-delay.md
-  - Fabric:
-      - Lakehouse Refresh Failure: fabric/lakehouse-refresh-failure.md
-  - Integrations:
+  - Entity Engine: entity-engine/index.md
+  - Blog: blog/index.md
+  - Data Contracts: data-contracts/index.md
+  - Runbooks:
+    - Data Platform:
+      - Pipeline Failure: runbooks/data-platform/pipeline-failure.md
+      - Ingestion Delay: runbooks/data-platform/ingestion-delay.md
+    - Fabric:
+      - Lakehouse Refresh Failure: runbooks/fabric/lakehouse-refresh-failure.md
+    - Integrations:
       - Workday Sync Error: integrations/workday-sync-error.md
+  - SOPs: sops/index.md
